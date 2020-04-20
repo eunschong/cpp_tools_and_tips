@@ -1,4 +1,4 @@
-# cpp_tools_and_tips
+# tools_and_tips_for_coding
 Tools, tips, and reminders for coding
 
 # General tools and tips for coding
