@@ -39,3 +39,7 @@ Tools, tips, and reminders for coding
 
 ### 2) automatic documentation tool
 - [Doxygen](http://www.doxygen.nl/manual/docblocks.html)
+
+
+### 3) string management samples
+- [Sample codes](stringManagement)
