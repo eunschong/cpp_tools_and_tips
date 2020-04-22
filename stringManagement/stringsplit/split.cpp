@@ -3,6 +3,11 @@
 #include <sstream>	// for split2 only
 using namespace std;
 
+/**
+* this sample code is based on:
+* https://stackoverflow.com/questions/14265581/parse-split-a-string-in-c-using-string-delimiter-standard-c
+*/
+
 /** when delimiter is string */
 vector<string> split(string s, string delim){
   vector<string> res;
