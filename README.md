@@ -23,9 +23,13 @@ Tools, tips, and reminders for coding
 ### Cf: [catkin_tools](https://catkin-tools.readthedocs.io/en/latest/#)
 
 ## 2. Github tips
-### Git ReadMe format
+### 1) Git ReadMe format
 - [Markdown-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
+### 2) Latex-style equation
+- ([From stackoverflow](https://stackoverflow.com/questions/11256433/how-to-show-math-equations-in-general-githubs-markdownnot-githubs-blog))
+  - < img src="https://latex.codecogs.com/svg.latex?a+b+c" title="eq_1" />
+  - <img src="https://latex.codecogs.com/svg.latex?a+b+c" title="eq_1" />
 
 ## 3. Useful tools
 ### 1) text editor
@@ -36,6 +40,7 @@ Tools, tips, and reminders for coding
     - Step 1::Add repo: ```sudo add-apt-repository ppa:webupd8team/atom```
     - Step 2::Update repo: ```sudo apt-get update```
     - Step 3::Install: ```sudo apt-get install atom```
+  - Preview: ctrl+shift+m
 
 ### 2) automatic documentation tool
 - [Doxygen](http://www.doxygen.nl/manual/docblocks.html)

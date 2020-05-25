@@ -1,0 +1,35 @@
+#include <iostream>
+/**
+* Not sure when this would be a useful case. Just for reference.
+*/
+using namespace std;
+
+class A{
+public:
+  A(){
+    cout << "A constructed" << endl;
+  }
+  virtual ~A(){};
+  
+  virtual void display(){
+    cout << "A display()" << endl;
+  }
+  
+};
+class B:public A{
+  public:
+  B(){
+    cout << "B constructed" << endl;
+  }
+  
+   void display() override{
+    cout << "B display()" << endl;
+  }
+};
+
+int main(){
+  B _b;  //B _b(); << error    
+  A& b = dynamic_cast<A&>(_b);
+  // A& b = (A&)_b; // also works
+  b.display();  
+}
